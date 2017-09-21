@@ -1,0 +1,47 @@
+body {
+  background-color: #101413;
+  margin: 0 0 0 0;
+  font-size: 10pt;
+  overflow-x: hidden;
+}
+
+.svg-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 10%;
+  /*transform: translateY(400px);*/
+  z-index: 2;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  padding-left: 3%;
+}
+
+.title {
+  font-family: "Roboto", Verdana, serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #F0F0F0;
+  margin-top: 0;
+}
+
+p {
+  font-family: "Roboto Slab", Verdana, serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #F0F0F0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.4rem;
+}
