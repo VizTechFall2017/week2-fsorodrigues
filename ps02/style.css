@@ -7,41 +7,79 @@ body {
 
 .svg-container {
   position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
+  z-index: 0;
 }
 
 .main-container {
   display: flex;
   flex-direction: row;
-  position: fixed;
-  bottom: 10%;
-  /*transform: translateY(400px);*/
-  z-index: 2;
+  z-index: 1;
 }
 
 .text-container {
   display: flex;
   flex-direction: column;
   max-width: 40%;
-  padding-left: 3%;
+  padding-left: 5%;
+  padding-top: 5%;
+  z-index: 1;
 }
 
 .title {
   font-family: "Roboto", Verdana, serif;
   font-weight: 700;
   font-size: 2rem;
-  color: #F0F0F0;
+  color: #2B3030;
   margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 p {
   font-family: "Roboto Slab", Verdana, serif;
   font-weight: 300;
   font-size: 1rem;
-  color: #F0F0F0;
+  color: #2B3030;
   margin-top: 0;
-  margin-bottom: 1rem;
-  line-height: 1.4rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+}
+
+#Sun {
+  fill: #F5B841;
+}
+
+#Mercury {
+  fill: #6B3B20;
+}
+
+#Venus {
+  fill: #633D04;
+}
+
+#Earth {
+  fill: #162BE5;
+}
+
+#Mars {
+  fill: #E53E10;
+}
+
+#Jupiter {
+  fill: #8C5D32;
+}
+
+#Saturn {
+  fill: #B78728;
+}
+
+.ring {
+  fill: #7E7F7C;
+}
+
+#Uranus {
+  fill: #70EBFF;
+}
+
+#Neptune {
+  fill: #2616FF;
 }
