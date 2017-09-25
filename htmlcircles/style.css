@@ -1,0 +1,22 @@
+#circle1 {
+  fill: #263666;
+}
+
+#circle2 {
+  fill: #124666;
+}
+
+#circle3 {
+  fill: #123456;
+  transition: .5s ease-in-out;
+}
+
+.circle {
+  stroke: #111111;
+  stroke-width: 2;
+}
+
+.circle:hover {
+  stroke: #111111;
+  stroke-width: 0;
+}
